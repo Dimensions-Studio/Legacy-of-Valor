@@ -10,11 +10,12 @@ TagManager:
   - Climb
   - Stair
   - WallRun
+  - Kicker
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Map
   - Water
   - UI
   - 

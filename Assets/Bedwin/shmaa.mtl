@@ -1,0 +1,83 @@
+newmtl EyeLeftSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd baseColor.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 0.00
+newmtl Wolf3D_BodySG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd baseColor.002.jpg
+bump  -bm 1 Wolf3D_Male_Athletic_nm_jpg.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl Wolf3D_HeadSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd baseColor.001.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 7.00
+newmtl Wolf3D_HeadwearSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd headwear-turbant-01-D.jpg
+bump  -bm 1 headwear-turbant-01-N.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 0.04
+newmtl Wolf3D_Outfit_BottomSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outfit-Rogue-01-v2-m-bottom-C.jpg
+bump  -bm 1 outfit-Rogue-01-v2-m-bottom-N.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 23.00
+newmtl Wolf3D_Outfit_FootwearSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outfit-rogue-01-v2-m-footwear-C.jpg
+bump  -bm 1 outfit-rogue-01-v2-m-footwear-N.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 23.00
+newmtl Wolf3D_Outfit_TopSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outfit-rogue-01-v2-m-top-C.jpg
+bump  -bm 1 outfit-rogue-01-v2-m-top-N.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 23.00
+newmtl Wolf3D_TeethSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Wolf3D_Teeth.jpg
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 0.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
