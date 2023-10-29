@@ -25,8 +25,10 @@ public class GameManagerScript : MonoBehaviour
 
     [Header("Game logic")]
     [SerializeField] List<GameObject> planesPrefabs;
+    [SerializeField] List<GameObject> planesObjects;
+        
     Vector3 newPlanePos;
-
+    GameObject g;
 
     public bool playing;
     // Start is called before the first frame update
@@ -36,7 +38,7 @@ public class GameManagerScript : MonoBehaviour
         score = 0;
         displayScore = 0;
         playing = false;
-        newPlanePos = new Vector3(0, 0, 350);   
+        newPlanePos = new Vector3(0, 0, 350);
     }
 
     // Update is called once per frame
@@ -59,14 +61,13 @@ public class GameManagerScript : MonoBehaviour
     {
         scoreText.gameObject.SetActive(true);
         menu.SetActive(false);
-        playing = true;
     }   
     
     public void pauseButton()
     {
         scoreText.gameObject.SetActive(false);
         menu.SetActive(true);
-        playing =false;
+        playing =false; 
     }
 
     public void exitButton()
@@ -77,7 +78,12 @@ public class GameManagerScript : MonoBehaviour
     public void newPlane()
     {
         int ran = Random.Range(0, planesPrefabs.Count);
-        Instantiate(planesPrefabs[ran], newPlanePos, Quaternion.identity);
+        planesObjects.Add(Instantiate(planesPrefabs[ran], newPlanePos, Quaternion.identity));
+        g = planesObjects[0];
+        planesObjects.RemoveAt(0);
+        Destroy(g);
         newPlanePos += new Vector3(0, 0, 100);  
+
+
     }
 }

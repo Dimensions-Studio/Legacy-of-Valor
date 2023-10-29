@@ -6,7 +6,7 @@ public class planeTriggerEnter : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Animal")
+        if(other.gameObject.tag == "Player")
         {
             GameManagerScript.Instance.newPlane();
             gameObject.GetComponent<Collider>().enabled = false;
